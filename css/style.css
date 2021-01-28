@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{border-top: 5px solid #336699;}
+.header-top input{width: auto;}
+.header-top form{padding: 10px;}
+.navbar .form{ text-align: right; }
+
+.logo h2{
+    padding: 5px 10px; 
+    border-right: 2px groove #999999; 
+    color: black;
+}
+.navbar a:hover{background: white; color: black;}
+.navbar{
+    clear: both; 
+    background:#336699; 
+}
+
+.nav-link{text-transform: uppercase;}
+.navbar .nav-link{color: white;}
+
+.section{ padding: 30px 20px; }
+
+.card .text{
+    width: 40%; 
+    background-color: black;
+} 
+.section-middle .card img{border-radius: 25px;}
+.left a{text-decoration: none; }
+.section .left{ height: 500px;}
+.section .left, .left a{
+    background: black; 
+    color: white;
+}
+
+.left h3{
+    padding-bottom: 10px; 
+    text-align: center;
+}
+
+.section-middle, .section-bottom{ padding: 30px 20px;
+}
+.section-bottom-left h5, .section-bottom-middle h5, .section-bottom-right h5{
+    padding-bottom: 20px;
+}
+.section-bottom-middle{box-shadow: -5px -10px 5px gray; border: 1px groove grey;}
+.section-bottom-middle:hover{box-shadow: 5px 10px 5px gray;}
+.section-bottom-right img{box-shadow: 5px 10px 5px gray;}
+.section-bottom-right img:hover{box-shadow: -5px -10px 5px gray;}
+.footer{
+    color: white;
+    line-height: 50px;
+}
+.footer a{color: white;}
+@media screen and (min-width){
+    .section .text{
+        overflow: hidden;
+    }
+}
